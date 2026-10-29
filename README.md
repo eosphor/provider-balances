@@ -2,7 +2,7 @@
 
 A status-bar plugin for Hermes Desktop showing the active session provider's remaining session allowance, or a monetary credit balance when a percentage is not available.
 
-**Author and maintainer:** Monviso ([eosphor](https://github.com/eosphor)).
+**Author and maintainer:** Dmitry Melikhov ([eosphor](https://github.com/eosphor)).
 
 ## Features
 

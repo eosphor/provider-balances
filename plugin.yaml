@@ -1,6 +1,6 @@
 name: provider-balances
 label: Provider Balances
-author: Monviso
+author: Dmitry Melikhov
 homepage: https://github.com/eosphor/provider-balances
 kind: standalone
 version: 1.0.0
