@@ -1,0 +1,10 @@
+{
+  "name": "provider-balances",
+  "label": "Provider Balances",
+  "description": "Backend for the Provider Balances desktop plugin: remaining credits/quota per connected provider.",
+  "icon": "Gauge",
+  "version": "1.0.0",
+  "tab": { "hidden": true },
+  "slots": [],
+  "api": "plugin_api.py"
+}

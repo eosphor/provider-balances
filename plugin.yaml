@@ -1,0 +1,27 @@
+name: provider-balances
+label: Provider Balances
+author: Monviso
+homepage: https://github.com/eosphor/provider-balances
+kind: standalone
+version: 1.0.0
+description: >
+  Backend for the "Provider Balances" desktop plugin. Reports the remaining
+  quota window or credit balance of every connected provider as
+  GET /api/plugins/provider-balances/balances. Data is read from Hermes's own
+  account-usage fetchers (agent.account_usage, the /usage block) plus the
+  provider's own balance endpoint where Hermes has no fetcher; nothing is
+  invented — a provider that cannot be read is reported as unavailable.
+requires_hermes: ">=0.22.5"
+provides_tools: []
+provides_hooks: []
+config_schema:
+  openrouter_api_key:
+    type: secret
+    env: OPENROUTER_API_KEY
+    label: OpenRouter API key
+    description: Optional; needed only for OpenRouter credit checks.
+  deepseek_api_key:
+    type: secret
+    env: DEEPSEEK_API_KEY
+    label: DeepSeek API key
+    description: Optional; needed only for DeepSeek balance checks.
